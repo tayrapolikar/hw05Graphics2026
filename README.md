@@ -1,13 +1,17 @@
 # Computer Graphics - Exercise 5 - WebGL Bowling Alley
 
 Group Members:
+
   Tayra Polikar
+  
   Livia Wyler
 
 How to Run:
 
   1. Clone the repository to your local machine
+     
   2. Make sure Node.js is installed (node -v to check)
+   
   3. Start the local web server:
       bash   node index.js
 
@@ -15,28 +19,26 @@ How to Run:
 
 Controls:
 
-  Key / Mouse  Action
-  
-  O            Toggle orbit camera on/off
-  
-  1            Full lane view (default)
-  
-  2            Pin close-up
-  
-  3            Ball close-up
-  
-  4            Side view
-  
-  Left-drag    Orbit / rotate camera
-  
-  Scroll        Zoom in/out
-  
-  Right-drag    Pan camera
+      Key / Mouse    Action
+      
+      O              Toggle orbit camera on/off
+      
+      1              Full lane view (default)
+      
+      2              Pin close-up
+      
+      3              Ball close-up
+      
+      4              Side view
+      
+      Left-drag      Orbit / rotate camera
+      
+      Scroll          Zoom in/out
+      
+      Right-drag      Pan camera
 
-Features Implemented
-
+Features Implemented:
   Core requirements:
-  
     1. Full bowling lane (60 × 3.5 units) with maple wood coloring and glossy finish
     
     2. Approach area (15 units, distinct color/shade from lane)
@@ -74,22 +76,34 @@ Features Implemented
       
 Bonus features:
   1. Ball return track (trough + metal rails alongside right gutter)
+    
   2. Overhead scoring display screen (above approach area, blue-glow emissive)
+    
   3. 4 camera preset positions (keys 1–4)
+    
   4. Side walls and back wall enclosing the lane
 
 
 Known Issues / Limitations:
   1. Finger holes are simulated with flattened spheres, not actual geometry cuts into the ball
+
   2. Board lines are simple flat strips — no real texture mapping
+   
   3. The scorecard UI is a static placeholder; scoring logic is deferred to HW06
-  4. Physics, ball rolling, pin collision, and interactive aiming are not implemented (reserved for HW06)
+  
+  4. Physics, ball rolling, pin collision, and interactive aiming are not implemented
+ 
   5. Screenshots were taken manually after running the scene in the browser
 
 Sources & Assets:
   1. Three.js r128 — 3D rendering library (CDN)
+     
   2. Three.js OrbitControls — camera interaction (vendored locally as OrbitControls.js)
+     
   3. Three.js Documentation — geometry, material, and lighting reference
+  
   4. Discover Three.js — shadow setup reference
+     
   5. Bowling lane and pin dimensions based on USBC specifications
+     
   6. No external image textures used — all materials are procedural (color + shininess)
