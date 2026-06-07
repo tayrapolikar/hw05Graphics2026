@@ -5,6 +5,7 @@ Group Members:
   Livia Wyler
 
 How to Run:
+
   1. Clone the repository to your local machine
   2. Make sure Node.js is installed (node -v to check)
   3. Start the local web server:
@@ -17,33 +18,56 @@ Controls:
   Key / Mouse  Action
   
   O            Toggle orbit camera on/off
+  
   1            Full lane view (default)
+  
   2            Pin close-up
+  
   3            Ball close-up
+  
   4            Side view
+  
   Left-drag    Orbit / rotate camera
+  
   Scroll        Zoom in/out
+  
   Right-drag    Pan camera
 
 Features Implemented
 
   Core requirements:
+  
     1. Full bowling lane (60 × 3.5 units) with maple wood coloring and glossy finish
+    
     2. Approach area (15 units, distinct color/shade from lane)
+    
     3. Foul line (white stripe across full width at z=0)
+    
     4. Lane board lines (simplified wood plank texture)
+    
     5. Approach dots (two rows of 5 dots)
+    
     6. Targeting arrows (7 triangle markers at 15 units past foul line)
+    
     7. Gutters on both sides (slightly lower than lane surface, full length)
+    
     8. Pin deck at far end (distinct raised surface)
+    
     9. 10 bowling pins in regulation 1-2-3-4 triangular formation
+    
         a. Each pin: flat base, wide body, tapered neck, red stripe, rounded head
         b. Cast and receive shadows
+        
     10. Static bowling ball (pink, glossy, radius 0.45, finger holes visible)
+    
     11. Camera orbit controls (toggled with O key)
+    
     12. Responsive resize handler (scene stays correct when browser resizes)
+    
     13. Layered lighting: ambient + hemisphere + directional + pin spotlight
+    
     14. Soft shadow maps (PCFSoftShadowMap)
+    
     15. UI framework:
         Scorecard panel (10 frames, 2 roll boxes each, 3 for the 10th) 
         Controls panel (all key bindings listed on screen)
