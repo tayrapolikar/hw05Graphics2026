@@ -2,9 +2,9 @@
 
 Group Members:
 
-  Tayra Polikar
+  1. Tayra Polikar
   
-  Livia Wyler
+  2. Livia Wyler
 
 How to Run:
 
@@ -39,6 +39,7 @@ Controls:
 
 Features Implemented:
   Core requirements:
+  
     1. Full bowling lane (60 × 3.5 units) with maple wood coloring and glossy finish
     
     2. Approach area (15 units, distinct color/shade from lane)
@@ -75,6 +76,7 @@ Features Implemented:
         Controls panel (all key bindings listed on screen)
       
 Bonus features:
+
   1. Ball return track (trough + metal rails alongside right gutter)
     
   2. Overhead scoring display screen (above approach area, blue-glow emissive)
@@ -85,6 +87,7 @@ Bonus features:
 
 
 Known Issues / Limitations:
+
   1. Finger holes are simulated with flattened spheres, not actual geometry cuts into the ball
 
   2. Board lines are simple flat strips — no real texture mapping
@@ -96,6 +99,7 @@ Known Issues / Limitations:
   5. Screenshots were taken manually after running the scene in the browser
 
 Sources & Assets:
+
   1. Three.js r128 — 3D rendering library (CDN)
      
   2. Three.js OrbitControls — camera interaction (vendored locally as OrbitControls.js)
