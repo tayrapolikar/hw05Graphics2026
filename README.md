@@ -13,7 +13,9 @@ How to Run:
   4. Open your browser and go to: http://localhost:8000
 
 Controls:
+
   Key / Mouse  Action
+  
   O            Toggle orbit camera on/off
   1            Full lane view (default)
   2            Pin close-up
@@ -24,6 +26,7 @@ Controls:
   Right-drag    Pan camera
 
 Features Implemented
+
   Core requirements:
     1. Full bowling lane (60 × 3.5 units) with maple wood coloring and glossy finish
     2. Approach area (15 units, distinct color/shade from lane)
